@@ -5,7 +5,7 @@ y en ese momento apagar el ordenador.
 
 
 
-Se ejecuta del modo busqueda2 <directorio donde vas a poner los ficheros directorios.txt, extensiones.log y extensiones.txt>
+Se ejecuta del modo "python busqueda2.py <directorio donde vas a poner los ficheros directorios.txt, extensiones.log y extensiones.txt>"
 extensiones.txt:estan todas las extensiones conocidas que crean los Ramsomware.
-directorios.txt:se ponen todos los directorios donde quieres que busque.
+directorios.txt:se ponen todos los directorios donde quieres que busque. Se puede poner directorios con unos archivos trampa, pdf, doc, excell.
 extensiones.log: log ahora mismo pone la hora que empieza cada ciclo de busqueda y si encuentra un fichero que fichero es.
