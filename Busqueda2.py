@@ -5,7 +5,7 @@ import glob
 from datetime import datetime,timedelta
 
 def enviomail(destino,asunto):
-	fromaddr = 'AvisoRamsomware@ipresa.es'
+	fromaddr = 'AvisoRamsomware@xxxxx.xx'
 	toaddrs  = destino
 	user = 'autoriza'
 	passw = 'autoriza4732()'
@@ -78,5 +78,5 @@ while True:
 	break
 if total > 0:
 	l.close()
-	enviomail("jorge@ipresa.es","He encontrado algo")
+	enviomail("xxxxxx@xxxxx.xx","He encontrado algo")
 	#subprocess.call("shutdown -l ")
