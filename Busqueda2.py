@@ -10,7 +10,6 @@ def enviomail(destino,asunto):
 	user = 'xxxxxxx'
 	passw = 'xxxxxxxxxx'
 	subj = asunto
-	#mensaje = args.argmailhtm
 	mensaje = """Aviso de posible Ramsomware mire el fichero de log EL ORDENADOR SERA APAGADO<br/> <br/> 
 	Este es un <b>e-mail</b> enviando desde <b>Python</b> 
 	"""
