@@ -7,8 +7,8 @@ from datetime import datetime,timedelta
 def enviomail(destino,asunto):
 	fromaddr = 'AvisoRamsomware@xxxxx.xx'
 	toaddrs  = destino
-	user = 'autoriza'
-	passw = 'autoriza4732()'
+	user = 'xxxxxxx'
+	passw = 'xxxxxxxxxx'
 	subj = asunto
 	#mensaje = args.argmailhtm
 	mensaje = """Aviso de posible Ramsomware mire el fichero de log EL ORDENADOR SERA APAGADO<br/> <br/> 
