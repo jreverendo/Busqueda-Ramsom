@@ -55,7 +55,7 @@ while True:
 			hora = datetime.now()
 			#print (str(hora - horaant))
 			if (hora - horaant) > timedelta(seconds=300) and enviado == 0:
-				enviomail("jorge@ipresa.es","Parece que estoy tardando")
+				enviomail("xxxxx@xxxxx.xx","Parece que estoy tardando")
 				enviado = 1
 			#if (hora - horaant) == 
 			l.write(str(datetime.now()) + directorio + ' ' + '\n')
