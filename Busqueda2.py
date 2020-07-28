@@ -21,7 +21,7 @@ def enviomail(destino,asunto):
 	msg += "Subject:%s\n" % subj
 	msg += "\n"
 	msg += "%s" % mensaje
-	server = smtplib.SMTP('192.1.1.109')
+	server = smtplib.SMTP('xxx.xxx.xxx.xxx')
 	#server.starttls()
 	server.login(user,passw)
 	server.sendmail(fromaddr, toaddrs, msg)
